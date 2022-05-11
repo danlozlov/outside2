@@ -697,6 +697,9 @@ header {
     
 }
 @media (max-width: 1023px) {
+    .list ul{
+        margin-left:0%;
+    }
     .menu {
         width: 100%;
     }
