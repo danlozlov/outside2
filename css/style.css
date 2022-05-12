@@ -631,7 +631,10 @@ header {
         padding-left: 420px;
     }
 }
-@media(max-width:1300px){
+@media(max-width:1300px){		
+    .list_ul{
+	text-align:center;
+    }
     .container{
 	    flex-direction:row;
         height:100%;
@@ -749,6 +752,9 @@ header {
 
 
 @media (max-width: 769px) {
+	.game_ad{
+		width:90%;
+	}
     .block1_text {
         width: 100%;
         height: 400px;
